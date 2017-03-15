@@ -1,8 +1,10 @@
 # ssh-keypair-data
 
-SSH keys for sharing across projects.
+SSH keys for common shared access across projects.
 
-Usage:
+## Usage
+
+This repo will be primarily used as a module in other projects.
 
 ```
 module "ssh_key_data" {
