@@ -1,6 +1,6 @@
 # ssh-keypair-data
 
-SSH keys for common shared access across projects.
+Provides _raw_ SSH keys for common shared access across projects.
 
 ## Usage
 
