@@ -1,6 +1,6 @@
 # ssh-keypair-data
 
-Public and private SSH key for sharing across projects.
+SSH keys for sharing across projects.
 
 Usage:
 
