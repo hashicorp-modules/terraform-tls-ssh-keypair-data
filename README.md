@@ -8,7 +8,7 @@ This repo will be primarily used as a module in other projects.
 
 ```
 module "ssh_key_data" {
-  source = "git@github.com:hashicorp-modules/ssh-keypair-data.git//terraform"
+  source = "git@github.com:hashicorp-modules/ssh-keypair-data.git"
 }
 
 output "private_key_data" {
