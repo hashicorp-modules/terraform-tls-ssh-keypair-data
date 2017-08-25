@@ -1,3 +1,7 @@
+terraform {
+  required_version = ">= 0.9.3"
+}
+
 resource "tls_private_key" "main" {
   algorithm = "RSA"
 }
