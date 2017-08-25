@@ -2,11 +2,15 @@
 
 Provides _raw_ SSH keys for common shared access across projects.
 
-## Requirements
+## Required Terraform Variables
 
-No requirements.
+None.
+
+## Optional Terraform Variables
+
+- `private_key_filename`
 
 ## Outputs
 
-- `private_key_data`
 - `public_key_data`
+- `private_key_data`
