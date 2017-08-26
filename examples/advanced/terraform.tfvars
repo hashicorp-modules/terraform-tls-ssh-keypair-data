@@ -1,1 +1,1 @@
-private_key_filename = "default.key"
+private_key_filename = "default.pem"
