@@ -1,3 +1,4 @@
-module "ssh_key_data" {
-  source = "git@github.com:hashicorp-modules/ssh-keypair-data.git"
+module "tls_private_key" {
+  source = "../../../tls-private-key"
+  # source = "git@github.com:hashicorp-modules/tls-private-key.git"
 }

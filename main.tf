@@ -3,7 +3,7 @@ terraform {
 }
 
 resource "tls_private_key" "main" {
-  algorithm = "RSA"
+  algorithm = "$[var.algorithm}"
 }
 
 resource "null_resource" "main" {
