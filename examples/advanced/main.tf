@@ -1,5 +1,6 @@
 module "tls_private_key" {
-  source = "git@github.com:hashicorp-modules/tls-private-key.git"
+  source = "../../../tls-private-key"
+  # source = "git@github.com:hashicorp-modules/tls-private-key.git?ref=f-refactor"
 
   private_key_filename = "${var.private_key_filename}"
 }
