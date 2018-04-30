@@ -1,5 +1,5 @@
 terraform {
-  required_version = ">= 0.9.3"
+  required_version = ">= 0.11.6"
 }
 
 resource "tls_private_key" "main" {
