@@ -1,5 +1,9 @@
+terraform {
+  required_version = ">= 0.11.6"
+}
+
 resource "tls_private_key" "main" {
-  algorithm = "RSA"
+  algorithm = "$[var.algorithm}"
 }
 
 resource "null_resource" "main" {
